@@ -1,0 +1,11 @@
+import pandas as pd
+data={'Name':['ravi','priya','anam','neha'],
+      "age":[20,21,20,22],
+      "studyhours":[2,4,6,8],
+      "marks":[35 ,45,55,90]}
+df=pd.DataFrame(data)
+print(df.shape)
+df.head()
+df.tail()
+df.info()
+df.describe()
